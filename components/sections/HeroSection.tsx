@@ -9,7 +9,7 @@ export default function HeroSection({
     <section
       id="hero"
       ref={sectionRef}
-      className="story-panel relative flex min-h-screen items-end border-b border-white/10"
+      className="story-panel relative flex min-h-screen items-end"
     >
       <div className="mx-auto grid w-full max-w-7xl gap-8 px-6 pb-14 pt-32 lg:grid-cols-[1.2fr_0.8fr] lg:px-10">
         <div className="max-w-2xl">

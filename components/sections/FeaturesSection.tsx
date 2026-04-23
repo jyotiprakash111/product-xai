@@ -10,7 +10,7 @@ export default function FeaturesSection({
   ];
 
   return (
-    <section id="features" ref={sectionRef} className="story-panel min-h-screen border-b border-white/10">
+    <section id="features" ref={sectionRef} className="story-panel min-h-screen">
       <div className="mx-auto grid h-full max-w-7xl items-center gap-10 px-6 py-24 lg:grid-cols-2 lg:px-10">
         <div>
           <p data-reveal className="text-sm uppercase tracking-[0.32em] text-cyan-200">

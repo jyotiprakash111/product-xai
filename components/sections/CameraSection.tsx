@@ -10,7 +10,7 @@ export default function CameraSection({
   ];
 
   return (
-    <section id="camera" ref={sectionRef} className="story-panel min-h-screen border-b border-white/10">
+    <section id="camera" ref={sectionRef} className="story-panel min-h-screen">
       <div className="mx-auto max-w-7xl px-6 py-24 lg:px-10">
         <div className="grid items-start gap-8 lg:grid-cols-[1fr_1fr]">
           <div className="rounded-[2rem] border border-white/10 bg-slate-900/55 p-6 backdrop-blur-xl sm:p-8">

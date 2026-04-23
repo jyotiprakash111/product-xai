@@ -18,7 +18,7 @@ export default function DetailsSection({
   ];
 
   return (
-    <section id="details" ref={sectionRef} className="story-panel min-h-screen border-b border-white/10">
+    <section id="details" ref={sectionRef} className="story-panel min-h-screen">
       <div className="mx-auto max-w-7xl px-6 py-24 lg:px-10">
         <div className="grid items-start gap-8 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="space-y-4 rounded-[2rem] border border-white/10 bg-slate-900/55 p-6 backdrop-blur-xl">
